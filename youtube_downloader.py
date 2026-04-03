@@ -1,17 +1,17 @@
 import subprocess
 import sys
 
-url = "https://www.youtube.com/shorts/va_nt_Qnll0"
+# url = "https://www.youtube.com/shorts/Nq7op3LdAk0"
 
-subprocess.run([
-    sys.executable, "-m", "yt_dlp",
-    "-f", "bestvideo+bestaudio",
-    "--merge-output-format", "mp4",
-    "-o", "%(title)s.%(ext)s",
-    url
-])
+# subprocess.run([
+#     sys.executable, "-m", "yt_dlp",
+#     "-f", "bestvideo+bestaudio",
+#     "--merge-output-format", "mp4",
+#     "-o", "%(title)s.%(ext)s",
+#     url
+# ])
 
-url = "https://www.youtube.com/shorts/va_nt_Qnll0"
+url = "https://www.youtube.com/watch?v=69v-9S8ho5Q"
 
 subprocess.run([
     sys.executable, "-m", "yt_dlp",
