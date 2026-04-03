@@ -11,14 +11,14 @@ subprocess.run([
     url
 ])
 
-# url = "https://www.youtube.com/shorts/va_nt_Qnll0?feature=share"
+url = "https://www.youtube.com/shorts/va_nt_Qnll0"
 
-# subprocess.run([
-#     sys.executable, "-m", "yt_dlp",
-#     "-x",
-#     "--audio-format", "mp3",
-#     "-o", "%(title)s.%(ext)s",
-#     url
-# ])
+subprocess.run([
+    sys.executable, "-m", "yt_dlp",
+    "-x",
+    "--audio-format", "mp3",
+    "-o", "%(title)s.%(ext)s",
+    url
+])
 
 # yt-dlp -f bestvideo+bestaudio --merge-output-format mp4 "https://www.youtube.com/watch?v=o8DqOfzFjls"
